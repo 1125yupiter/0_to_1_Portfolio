@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유세현 (Sehyun YU): The 0-to-1 Product & Solutions Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Inter 폰트 적용 (Tailwind 기본 폰트) */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* 가독성을 위한 기본 스타일 */
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        .project-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease-in-out;
+        }
+        .project-toggle {
+            cursor: pointer;
+            padding: 2rem;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .project-toggle:hover {
+            background-color: #f9fafb;
+        }
+        .project-details {
+            padding: 0 2rem 2rem 2rem;
+            border-top: 1px solid #e2e8f0;
+        }
+        /* (v1.6) 수정된 태그 스타일 */
+        .tag {
+            display: inline-block;
+            background-color: #4f46e5;  /* 진한 배경색 */
+            color: #ffffff;            /* 흰색 글씨 */
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 700;           /* 두꺼운 글씨 */
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .section-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #4f46e5;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 2px solid #c7d2fe;
+            display: inline-block;
+        }
+        /* JavaScript로 제어될 'hidden' 클래스 */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-4xl p-6 md:p-12">
+
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">유세현 (Sehyun YU)</h1>
+            <p class="text-2xl text-indigo-700 font-semibold">
+                The 0-to-1 Product & Solutions Architect
+            </p>
+            <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                "고객의 문제로부터 '최적의 솔루션'을 '0'에서 '1'로 설계합니다."
+            </p>
+            <div class="mt-6 flex justify-center gap-4">
+                <a href="mailto:1125.sehyun@gmail.com" class="text-indigo-600 hover:text-indigo-800">1125.sehyun@gmail.com</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://www.linkedin.com/in/1125sehyun/" target="_blank" class="text-indigo-600 hover:text-indigo-800">LinkedIn</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://www.credly.com/badges/377648e8-8d54-42a3-a830-df1e0e1f4149/public_url" target="_blank" class="text-indigo-600 hover:text-indigo-800">AWS ML Certified</a>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">아이디어를 3.7억 매출의 B2C 제품으로 (0→1)</h2>
+                        <p class="text-lg text-gray-500">우주상사 (ALEX 텀블러) | 1인 기업 창업자 (2018.03 - 2021.07)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">B2C Product</span>
+                        <span class="tag">Crowdfunding</span>
+                        <span class="tag">Manufacturing</span>
+                        <span class="tag">E-commerce</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">기존 텀블러는 세척이 어렵고 냄새가 남는다는 명확한 '고객의 Pain Point'가 존재했습니다. 이는 기술의 문제가 아닌 '설계'의 문제였습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">'ALEX 텀블러'는 손 전체를 넣어 세척할 수 있으면서도, 입구가 좁은 텀블러와 동일한 수준의 뛰어난 보온/보냉 성능을 유지하는 혁신적인 솔루션을 제공했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Maker)</h3>
+                    <p class="mb-6 text-gray-700">1인 기업가로서 A to Z를 총괄했습니다. 제품 소싱, 중국 공장 핸들링, 3.7억 규모의 3회 크라우드펀딩 캠페인 기획 및 실행, 마케팅 콘텐츠 제작, 9,148명의 고객 CS 및 피드백 분석, 15개 E-commerce 채널 입점 및 B2B 영업을 직접 수행했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>3회 캠페인 총 <span class="font-bold text-indigo-700">3.7억 원</span> 펀딩 달성 (평균 2,800% 달성)</li>
+                        <li>총 <span class="font-bold text-indigo-700">9,148명</span>의 초기 서포터(고객) 확보</li>
+                        <li>2018년 연 매출 <span class="font-bold text-indigo-700">4억 원</span> 달성 및 와디즈 Top 100 선정</li>
+                        <li>주요 B2B 고객사 확보 (삼성전자, 현대모비스, 엔씨소프트 등 대기업 다수 포함)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">이명(Tinnitus) 환자를 위한 신규 웹 솔루션 (0→1)</h2>
+                        <p class="text-lg text-gray-500">MIJ Co., Ltd. | 해외영업팀장 & Product Owner (2023.07 - 2024.02)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Digital Product</span>
+                        <span class="tag">Product Owner</span>
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">System Architecture</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">CES 혁신상을 수상한</span> 이명 치료 웨어러블 기기는 있었으나, 의사와 환자 모두가 증상을 '원격'으로 '추적/관리'할 수 있는 디지털 솔루션이 부재했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">환자가 웹에서 직접 이명 검사를 수행하고, 의사가 그 데이터를 기반으로 치료 파라미터를 설정하는 신규 웹 기반 검사/관리 시스템 'etereocare.com'을 기획했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge & Maker)</h3>
+                    <p class="mb-6 text-gray-700">Product Owner로서 신규 제품의 0→1을 총괄했습니다. 해외 바이어 피드백과 시장 니즈를 분석하여 제품의 비전을 정의하고, 시스템 아키텍처를 직접 설계했습니다. 이후 2명의 개발자를 직접 채용하고 PM으로서 프로젝트를 리드하며 실제 배포까지 완료했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>아이디어를 4개월 만에 <span class="font-bold text-indigo-700">'etereocare.com'</span>이라는 실제 작동하는 웹 서비스로 성공적 론칭</li>
+                        <li>이후 본 시스템은 회사가 <span class="font-bold text-indigo-700">Class 2 의료기기 인증을 획득하는 핵심 기반</span>이 되었습니다.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">엑셀 보고서를 대체하는 '경영진 정보 시스템' (0→1)</h2>
+                        <p class="text-lg text-gray-500">현대모비스 | 서비스부품본부 대표 PM (2015 - 2016)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Enterprise System</span>
+                        <span class="tag">Product Manager</span>
+                        <span class="tag">Data Visualization</span>
+                        <span class="tag">KPI Definition</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">전사 경영진의 의사결정이 매일 아침 수십 개의 부서에서 취합하는 '수기 엑셀 보고서'에 의존했습니다. 데이터의 실시간성과 정합성이 떨어져 신속한 경영 판단이 불가능했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">전사 핵심 KPI를 DW(데이터 웨어하우스)에서 직접 집계하여 실시간으로 시각화하는 '신규 경영진 정보 시스템(EIS)' 구축이 전사 과제로 기획되었습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge & Maker)</h3>
+                    <p class="mb-6 text-gray-700">저는 이 전사 프로젝트의 서비스부품본부(약 250명 규모) 실무 대표 PM으로 선정되었습니다. '기획'을 '실행'으로 옮기기 위해 30명 이상의 현업 팀장/임원들을 인터뷰하며 '고객(경영진)'의 니즈인 KPI를 정의하고 '구체화'했습니다. 개발팀(오토에버)과 협업하며 SQL 쿼리 로직과 시각화 대시보드를 직접 설계하는 '기술-비즈니스 브릿지' 역할을 수행했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>EIS 시스템 성공적 론칭, 전사 '수기 엑셀 보고' 체계를 '실시간 시스템'으로 전환</li>
+                        <li>데이터 기반 의사결정 문화를 정착시켰으며, 본부의 성과를 명확하게 시각화</li>
+                        <li>전사 CEO 주재 <span class="font-bold text-indigo-700">'일일 전사회의'에 참석</span> (각 본부 이사급 이상 중 유일한 부장급 이하 참석자)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">브라질 법인 시스템 업그레이드 및 통합 (0→1)</h2>
+                        <p class="text-lg text-gray-500">현대모비스 | 글로벌 시스템 PM (2016 - 2017)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">System Integration</span>
+                        <span class="tag">Global PM</span>
+                        <span class="tag">Bridge</span>
+                        <span class="tag">Cross-Cultural</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">브라질 법인이 신규 수출 사업을 시작</span>하게 되었으나, 기존 레거시 시스템은 이를 지원할 수 없었고 시스템의 종합적인 업그레이드가 필요했습니다. 또한, 한국 본사(AMOS)와 브라질 법인(SAP) 간의 데이터 인터페이스도 부재했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">신규 수출 사업에 필요한 프로세스를 개발/추가</span>하고, 본사-법인 간 '신규 데이터 인터페이스'를 설계하여 AMOS-SAP 시스템을 성공적으로 통합했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge)</h3>
+                    <p class="mb-6 text-gray-700">'글로벌 기술 통역가'로서 한국 본사(Autoever) 개발자와 브라질 현지(SAP) 전문가 간의 복잡한 기술 요구사항을 중재했습니다. 12시간의 시차 환경에서 '비동기 협업'(병렬 테스트 케이스, 상세 문서화)을 최적화하여 개발팀의 대기 시간을 최소화했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>시스템 고도화 및 본사-법인 간 데이터 통합을 성공적으로 정시 론칭</li>
+                        <li>다국어, 다문화, 12시간 시차의 복잡한 환경에서 효율적인 협업 모델을 구축</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">마이애미 레거시 시스템 재구축 (0→1)</h2>
+                        <p class="text-lg text-gray-500">현대모비스 | Solutions Architect & PM (2017 - 2018)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Solutions Architect</span>
+                        <span class="tag">System Migration</span>
+                        <span class="tag">Crisis Management</span>
+                        <span class="tag">Bridge</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">Miami 법인의 노후화된 AS400 시스템은 현지 중남미 딜러 비즈니스 니즈를 반영하지 못했습니다. Java 기반의 신규 시스템으로의 전면 재구축 및 데이터 마이그레이션이 필요했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">'현지 니즈 100% 반영'을 목표로, 레거시 시스템을 Java 기반으로 전면 재구축하고 본사 SAP와 연동되는 '신규 솔루션 아키텍처'를 설계했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Architect)</h3>
+                    <p class="mb-6 text-gray-700">'이중 청중 문서화' (비개발자용: 기능/디자인, 개발자용: DB매핑/로직)를 통해 25명 규모의 다국적 TF 커뮤니케이션을 리드했습니다. 회계(복식부기)를 독학하여 'Credit Balance' 자동화 로직을 직접 설계, 수동 개입을 60% 감소시켰습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>총 <span class="font-bold text-indigo-700">28억 원</span> 규모의 프로젝트를 <span class="font-bold text-indigo-700">정시(On-time)에 성공적으로 론칭</span></li>
+                        <li><b>위기 관리:</b> 배포 출장 중 현지 재고 관리자 부상 시, 즉각적인 업무 재분배 및 직접 대응으로 프로젝트 중단 방지</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">정부 입찰(RFP)을 '성공적인 수주'로 (0→1)</h2>
+                        <p class="text-lg text-gray-500">팀도밍고 | 경영지원팀 팀장 / PM (2021.08 - 2022.03)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">B2G Solution</span>
+                        <span class="tag">Proposal Architect</span>
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Digital Media</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">나라장터(공공조달)에 공고된 공공기관의 '제안요청서(RFP)'를 확인</span>했습니다. 이는 명확한 '고객의 니즈(0)'였으며, 이 프로젝트를 수주하기 위해 제안(솔루션) 기획을 시작했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">고객(발주처)의 니즈를 분석하고, 팀도밍고의 내부 자산(역량)을 조합하여 '맞춤형 솔루션'을 기획하고 '제안서'를 작성했습니다. 그 결과 성공적인 프로젝트 수주 및 최종 납품까지 완료했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Solutions Architect)</h3>
+                    <p class="mb-6 text-gray-700">'고객의 RFP(0)'를 '성공적인 수주(1)'로 이끄는 B2G 솔루션 아키텍트 역할을 수행했습니다. 공공기관 특성 분석 기반의 차별화된 제안서(솔루션)를 기획하고, 수주 후에는 발주처-제작팀-외주업체 간의 요구사항을 조율하는 PM 역할을 맡아 최종 납품까지 완료했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>국립현대미술관 MMCA TV 운영지원 <span class="font-bold text-indigo-700">(8,550만 원)</span> 프로젝트 수주</li>
+                        <li>국립고궁박물관 투명 LED 영상 콘텐츠 제작 <span class="font-bold text-indigo-700">(8,491만 원)</span> 프로젝트 수주</li>
+                        <li>이응노미술관 전시 미디어 영상 제작 <span class="font-bold text-indigo-700">(4,750만 원)</span> 프로젝트 수주 및 공공 시장 성공적 진입</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">수기 수출 프로세스를 '자동화 시스템'으로 (0→1)</h2>
+                        <p class="text-lg text-gray-500">신도 P&G | 해외영업팀 과장 (2025.01 - 2025.05)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Process Automation</span>
+                        <span class="tag">System Architecture</span>
+                        <span class="tag">Data Management</span>
+                        <span class="tag">K-Beauty</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">3,500개 SKU의 재고/부자재 마스터가 비체계적이었고, 인보이스 생성이 수작업으로 진행되어 오류율이 높았습니다. 또한, 바이어별 미수대금 현황이 체계적으로 관리되지 않아 리스크가 존재했습니다.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">제품 코드, 재고, 고객 마스터, 가격표 등 전반적인 수출 워크플로우를 재설계했습니다. 비효율적인 인보이스 생성 프로세스를 자동화하고, 미수대금 정산현황 추적 구조를 설계하여 전사에 배포했습니다.</p>
+                    <h3 class="section-title">MY ROLE (The Architect & Maker)</h3>
+                    <p class="mb-6 text-gray-700">내부 프로세스의 비효율을 '0'으로 정의하고, 이를 해결할 '1'의 자동화 솔루션을 기획/설계했습니다. 3,500 SKU 마스터 데이터를 재구성하고, 인보이스 자동화 및 미수금 관리 시스템 로직을 직접 설계하는 '프로세스 아키텍트' 역할을 수행했습니다.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>인보이스 생성 프로세스 자동화로 작업 시간 <span class="font-bold text-indigo-700">70-80% 단축</span> 및 인적 오류(Human Error) 대폭 감소</li>
+                        <li>체계화된 데이터 관리 및 재고 최적화로 터키/카자흐스탄 <span class="font-bold text-indigo-700">매출 300-400% 성장</span>의 기반 마련</li>
+                        <li>미수대금 관리 체계화로 대금회수 리스크 최소화</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="project-card">
+                 <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">기타 포트폴리오 및 링크 (External Links)</h2>
+                        <p class="text-lg text-gray-500">인터뷰, 창업 프로젝트 상세, 의료기기 프로젝트 링크</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    
+                    <h3 class="section-title">About Me</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                        <li><a href="https://youtu.be/HUmPG7VQoYA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Career Interview Video (26 min): 엔지니어링에서 창업, ML까지의 여정 (3개 국어) 🎥</a></li>
+                        <li><a href="https://youtu.be/BNCGl9HAzPs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Photo Album: 컴퓨터를 좋아하던 아이에서 ML PM까지의 여정 📸</a></li>
+                    </ul>
+        
+                    <h3 class="section-title">Startup Project - ALEX Tumbler</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                        <li><a href="https://www.alexbottle.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Brand Official Website</a></li>
+                        <li><a href="https://www.tumblbug.com/alex" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">1st Crowdfunding (Tumblbug, 3,117%)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/campaign/detail/19182" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">2nd Crowdfunding (Wadiz, 4,059% - Top 100)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/campaign/detail/23604" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">3rd Crowdfunding (Wadiz, 1,394%)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/wpage/bestMaker2018" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Wadiz 2018 Best Maker Top 100 Awards</a></li>
+                        <li><a href="https://www.kickstarter.com/projects/1914152870/alex-bottle-twist-open-clean-easy-pack-small" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">US Kickstarter Original Project</a></li>
+                        <li><a href="https://youtu.be/5py0WwCD16w" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Wadiz TV Success Maker Interview</a></li>
+                        <li><a href="https://www.etoday.co.kr/news/view/1719434" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Press Coverage (eToday)</a></li>
+                    </ul>
+        
+                    <h3 class="section-title">Medical Device Project</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li><a href="https://www.etereocare.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Web-based Tinnitus Examination and Treatment System (PO)</a></li>
+                    </ul>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // 모든 .project-toggle 요소를 선택합니다.
+            const toggles = document.querySelectorAll('.project-toggle');
+            
+            toggles.forEach(toggle => {
+                // 각 .project-toggle 요소에 클릭 이벤트 리스너를 추가합니다.
+                toggle.addEventListener('click', function () {
+                    // 클릭된 요소의 바로 다음 형제 요소(.project-details)를 찾습니다.
+                    const details = this.nextElementSibling;
+                    // 클릭된 요소 안의 .toggle-icon을 찾습니다.
+                    const icon = this.querySelector('.toggle-icon');
+                    
+                    // .project-details 요소에 'hidden' 클래스가 있는지 확인합니다.
+                    if (details.classList.contains('hidden')) {
+                        // 숨겨져 있다면 'hidden' 클래스를 제거하여 보이게 합니다.
+                        details.classList.remove('hidden');
+                        // 아이콘을 '[-]'로 변경합니다.
+                        icon.textContent = '[-]';
+                    } else {
+                        // 보이고 있다면 'hidden' 클래스를 추가하여 숨깁니다.
+                        details.classList.add('hidden');
+                        // 아이콘을 '[+]'로 변경합니다.
+                        icon.textContent = '[+]';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
