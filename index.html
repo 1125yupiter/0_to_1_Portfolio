@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehyun YU (유세현): The 0-to-1 Product & Solutions Architect</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Inter Font (Tailwind Default) */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Base styles for readability */
+        h1, h2, h3 {
+            font-weight: 700;
+        }
+        .project-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 0.75rem;
+            margin-bottom: 1.5rem;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease-in-out;
+        }
+        .project-toggle {
+            cursor: pointer;
+            padding: 2rem;
+            transition: background-color 0.2s ease-in-out;
+        }
+        .project-toggle:hover {
+            background-color: #f9fafb;
+        }
+        .project-details {
+            padding: 0 2rem 2rem 2rem;
+            border-top: 1px solid #e2e8f0;
+        }
+        /* (v1.6) Updated Tag Style */
+        .tag {
+            display: inline-block;
+            background-color: #4f46e5;  /* Darker background */
+            color: #ffffff;            /* White text */
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 700;           /* Bolder font */
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .section-title {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: #4f46e5;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 2px solid #c7d2fe;
+            display: inline-block;
+        }
+        /* 'hidden' class controlled by JavaScript */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="container mx-auto max-w-4xl p-6 md:p-12">
+
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Sehyun YU (유세현)</h1>
+            <p class="text-2xl text-indigo-700 font-semibold">
+                The 0-to-1 Product & Solutions Architect
+            </p>
+            <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                "Architecting 'optimal solutions' from customer problems, from '0' to '1'."
+            </p>
+            <div class="mt-6 flex justify-center gap-4">
+                <a href="mailto:1125.sehyun@gmail.com" class="text-indigo-600 hover:text-indigo-800">1125.sehyun@gmail.com</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://www.linkedin.com/in/1125sehyun/" target="_blank" class="text-indigo-600 hover:text-indigo-800">LinkedIn</a>
+                <span class="text-gray-300">|</span>
+                <a href="https://www.credly.com/badges/377648e8-8d54-42a3-a830-df1e0e1f4149/public_url" target="_blank" class="text-indigo-600 hover:text-indigo-800">AWS ML Certified</a>
+            </div>
+        </header>
+
+        <main>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">B2C Product Launch with $296K USD Revenue (0→1)</h2>
+                        <p class="text-lg text-gray-500">Oojoo Trade (ALEX Tumbler) | Founder (Solo Entrepreneur) (2018.03 - 2021.07)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">B2C Product</span>
+                        <span class="tag">Crowdfunding</span>
+                        <span class="tag">Manufacturing</span>
+                        <span class="tag">E-commerce</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">Existing tumblers had clear customer pain points: difficult to clean and retaining odors. This wasn't a technology issue, but a 'design' issue.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">The 'ALEX Tumbler' provided an innovative solution: a wide-mouth opening for easy cleaning while maintaining the same excellent thermal insulation as narrow-mouth tumblers.</p>
+                    <h3 class="section-title">MY ROLE (The Maker)</h3>
+                    <p class="mb-6 text-gray-700">As a solo entrepreneur, I managed everything from A to Z: product sourcing, handling Chinese factories, planning and executing 3 crowdfunding campaigns (totaling ₩370M), creating marketing content, analyzing feedback from 9,148 customers (CS), and managing 15 e-commerce channels and B2B sales.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Achieved <span class="font-bold text-indigo-700">$296,000 USD</span> in funding over 3 campaigns (2,800% of goal on average)</li>
+                        <li>Acquired a total of <span class="font-bold text-indigo-700">9,148</span> initial supporters (customers)</li>
+                        <li>Reached <span class="font-bold text-indigo-700">$320,000 USD</span> in total 2018 revenue and selected as a Wadiz Top 100 Maker</li>
+                        <li>Secured major B2B clients (including Samsung Electronics, Hyundai Mobis, NCSoft, etc.)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">A New Web Solution for Tinnitus Patients (0→1)</h2>
+                        <p class="text-lg text-gray-500">MIJ Co., Ltd. | Head of Global Sales & Product Owner (2023.07 - 2024.02)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Digital Product</span>
+                        <span class="tag">Product Owner</span>
+                        <span class="tag">Healthcare</span>
+                        <span class="tag">System Architecture</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">Although the company had a <span class="font-bold text-indigo-700">CES Innovation Award-winning</span> wearable device for tinnitus, there was no digital solution for doctors and patients to remotely 'track and manage' symptoms.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">I planned 'etereocare.com', a new web-based system allowing patients to conduct tinnitus tests online and doctors to set treatment parameters based on that data.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge & Maker)</h3>
+                    <p class="mb-6 text-gray-700">As the Product Owner, I led the new product from 0 to 1. I defined the product vision by analyzing feedback from global buyers and market needs, and personally designed the system architecture. I then hired two developers and led the project as PM through to final deployment.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Successfully launched the idea as a functioning web service, <span class="font-bold text-indigo-700">'etereocare.com'</span>, in just 4 months.</li>
+                        <li>This system later became the <span class="font-bold text-indigo-700">core foundation for the company to obtain its Class 2 medical device certification</span>.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">Replacing Excel with an Executive Info System (0→1)</h2>
+                        <p class="text-lg text-gray-500">Hyundai Mobis | Lead PM, Service Parts Division (2015 - 2016)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                     <div class="my-6">
+                        <span class="tag">Enterprise System</span>
+                        <span class="tag">Product Manager</span>
+                        <span class="tag">Data Visualization</span>
+                        <span class="tag">KPI Definition</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">Executive-level decisions relied on 'manual Excel reports' compiled from dozens of departments every morning. This lack of real-time data and accuracy made swift management impossible.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">A company-wide project was launched to build a new 'Executive Information System (EIS)' that aggregated and visualized key KPIs directly from the Data Warehouse in real-time.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge & Maker)</h3>
+                    <p class="mb-6 text-gray-700">I was selected as the lead PM for the Service Parts Division (approx. 250 people). To turn 'planning' into 'execution', I interviewed over 30 team leaders and executives to define and 'materialize' the customer (management's) KPI needs. I acted as the 'tech-business bridge', collaborating with the development team (Autoever) to design the SQL query logic and visualization dashboards.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Successfully launched the EIS system, transforming the company's 'manual Excel reporting' into a 'real-time system'.</li>
+                        <li>Established a data-driven decision-making culture and clearly visualized the division's performance.</li>
+                        <li>Selected to attend the <span class="font-bold text-indigo-700">daily company-wide CEO meeting</span> (as the only non-executive-level member).</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">Brazil System Upgrade & Integration (0→1)</h2>
+                        <p class="text-lg text-gray-500">Hyundai Mobis | Global System PM (2016 - 2017)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">System Integration</span>
+                        <span class="tag">Global PM</span>
+                        <span class="tag">Bridge</span>
+                        <span class="tag">Cross-Cultural</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">The <span class="font-bold text-indigo-700">Brazil subsidiary was launching a new export business</span>, but the existing legacy system could not support it and required a comprehensive upgrade. Furthermore, there was no data interface between the Korean HQ (AMOS) and the local Brazil (SAP) system.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">Developed and added the necessary processes for the new export business</span> and designed a 'new data interface' to successfully integrate the AMOS-SAP systems.</p>
+                    <h3 class="section-title">MY ROLE (The Bridge)</h3>
+                    <p class="mb-6 text-gray-700">I acted as the 'Global Tech Translator' between the Korean HQ developers (Autoever) and the Brazilian SAP experts. I mediated complex technical requirements and optimized for the 12-hour time difference by implementing 'asynchronous collaboration' strategies (e.g., parallel test cases, detailed documentation) to minimize downtime.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Successfully launched the upgraded and integrated system on time.</li>
+                        <li>Maximized efficiency in a complex cross-cultural, bilingual, and time-zone-constrained environment.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">Miami Legacy System Rebuild (0→1)</h2>
+                        <p class="text-lg text-gray-500">Hyundai Mobis | Solutions Architect & PM (2017 - 2018)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Solutions Architect</span>
+                        <span class="tag">System Migration</span>
+                        <span class="tag">Crisis Management</span>
+                        <span class="tag">Bridge</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">The Miami subsidiary's obsolete AS400 system could not support local dealer needs. A complete rebuild and data migration to a new JAVA-based system was required.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">With the goal of '100% reflecting local needs', I designed the 'new solution architecture' to completely rebuild the legacy system in Java, integrating it with HQ's SAP data.</p>
+                    <h3 class="section-title">MY ROLE (The Architect)</h3>
+                    <p class="mb-6 text-gray-700">I led a 25-member multinational TF by creating 'Dual-Audience Documentation' (functional designs for users, technical specs for devs) to minimize errors. I self-taught 'double-entry bookkeeping' to personally design the 'Credit Balance' automation logic, reducing manual intervention by 60%.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Successfully launched the <span class="font-bold text-indigo-700">$2.24 Million USD</span> project <span class="font-bold text-indigo-700">on-time</span>.</li>
+                        <li><b>Crisis Management:</b> When the local inventory manager was injured during deployment, I immediately redistributed tasks and provided direct support to prevent project delays.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">Winning Government RFP Bids (0→1)</h2>
+                        <p class="text-lg text-gray-500">Team Domingo | Management Support Team Lead / PM (2021.08 - 2022.03)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">B2G Solution</span>
+                        <span class="tag">Proposal Architect</span>
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Digital Media</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700"><span class="font-bold text-indigo-700">I identified a public 'Request for Proposal (RFP)' on the government procurement site.</span> This was a clear 'customer need (0)', and I began planning a solution to win this project.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">I analyzed the client's (procurer's) needs, combined them with the team's internal assets, and designed a 'customized solution proposal'. This resulted in successfully winning the projects and completing the final delivery.</p>
+                    <h3 class="section-title">MY ROLE (The Solutions Architect)</h3>
+                    <p class="mb-6 text-gray-700">I acted as the B2G Solutions Architect, turning the 'customer RFP (0)' into a 'successful bid (1)'. I designed differentiated proposals based on analyzing the unique characteristics of public institutions. After winning, I served as the PM, coordinating requirements between the client, production team, and vendors to final delivery.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Won the <span class="font-bold text-indigo-700">MMCA (National Museum of Modern Art) TV</span> project ($68,400 USD)</li>
+                        <li>Won the <span class="font-bold text-indigo-700">National Palace Museum</span> LED content project ($67,920 USD)</li>
+                        <li>Won the <span class="font-bold text-indigo-700">Lee Ungno Museum</span> media video project ($38,000 USD), successfully entering the public sector market.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="project-card">
+                <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">Automating Manual Export Processes (0→1)</h2>
+                        <p class="text-lg text-gray-500">Sindo P&G | Global Sales Manager (2025.01 - 2025.05)</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    <div class="my-6">
+                        <span class="tag">Process Automation</span>
+                        <span class="tag">System Architecture</span>
+                        <span class="tag">Data Management</span>
+                        <span class="tag">K-Beauty</span>
+                    </div>
+                    <h3 class="section-title">THE PROBLEM (The "0")</h3>
+                    <p class="mb-6 text-gray-700">The master data for 3,500 SKUs was disorganized, and invoices were created manually, leading to a high error rate. Furthermore, outstanding payments by buyer were not systematically tracked, creating financial risk.</p>
+                    <h3 class="section-title">THE SOLUTION (The "1")</h3>
+                    <p class="mb-6 text-gray-700">I redesigned the entire export workflow, including product codes, inventory, customer masters, and pricing. I automated the inefficient invoice creation process anddesigned a new tracking structure for outstanding payments, deploying it company-wide.</p>
+                    <h3 class="section-title">MY ROLE (The Architect & Maker)</h3>
+                    <p class="mb-6 text-gray-700">I defined the internal process inefficiency as '0' and designed the '1'—the automated solution—to fix it. I served as the 'Process Architect', restructuring the 3,500 SKU master data and designing the logic for the invoice automation and payment tracking systems.</p>
+                    <h3 class="section-title">THE OUTCOME (The Proof)</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Automated the invoice process, <span class="font-bold text-indigo-700">reducing work time by 70-80%</span> and significantly decreasing human error.</li>
+                        <li>Laid the foundation for <span class="font-bold text-indigo-700">300-400% sales growth</span> in Turkey/Kazakhstan through systematic data management.</li>
+                        <li>Minimized credit recovery risk by systemizing the tracking of outstanding payments.</li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="project-card">
+                 <div class="project-toggle flex justify-between items-center">
+                    <div>
+                        <h2 class="text-2xl md:text-3xl font-bold mb-1">External Links & Portfolio</h2>
+                        <p class="text-lg text-gray-500">Interviews, Startup Project Details, Medical Device Project Link</p>
+                    </div>
+                    <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
+                </div>
+                <div class="project-details hidden">
+                    
+                    <h3 class="section-title">About Me</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                        <li><a href="https://youtu.be/HUmPG7VQoYA" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Career Interview Video (26 min): My Journey from Engineering to Startup & ML (Trilingual) 🎥</a></li>
+                        <li><a href="https://youtu.be/BNCGl9HAzPs" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Photo Album: From a Kid Who Loved Computers to an ML PM 📸</a></li>
+                    </ul>
+        
+                    <h3 class="section-title">Startup Project - ALEX Tumbler</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2 mb-6">
+                        <li><a href="https://www.alexbottle.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Brand Official Website</a></li>
+                        <li><a href="https://www.tumblbug.com/alex" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">1st Crowdfunding (Tumblbug, 3,117%)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/campaign/detail/19182" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">2nd Crowdfunding (Wadiz, 4,059% - Top 100)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/campaign/detail/23604" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">3rd Crowdfunding (Wadiz, 1,394%)</a></li>
+                        <li><a href="https://www.wadiz.kr/web/wpage/bestMaker2018" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Wadiz 2018 Best Maker Top 100 Awards</a></li>
+                        <li><a href="https://www.kickstarter.com/projects/1914152870/alex-bottle-twist-open-clean-easy-pack-small" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">US Kickstarter Original Project</a></li>
+                        <li><a href="https://youtu.be/5py0WwCD16w" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Wadiz TV Success Maker Interview</a></li>
+                        <li><a href="https://www.etoday.co.kr/news/view/1719434" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Press Coverage (eToday)</a></li>
+                    </ul>
+        
+                    <h3 class="section-title">Medical Device Project</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li><a href="https://www.etereocare.com/" target="_blank" rel="noopener noreferrer" class="text-indigo-600 hover:underline">Web-based Tinnitus Examination and Treatment System (PO)</a></li>
+                    </ul>
+
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="text-center text-sm text-gray-500 mt-8 mb-4">
+            <p>Note: All KRW figures converted to USD at an approximate rate of ₩1,250 = $1 USD.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Select all .project-toggle elements
+            const toggles = document.querySelectorAll('.project-toggle');
+            
+            toggles.forEach(toggle => {
+                // Add a click event listener to each .project-toggle
+                toggle.addEventListener('click', function () {
+                    // Find the next sibling element (.project-details)
+                    const details = this.nextElementSibling;
+                    // Find the .toggle-icon inside the clicked element
+                    const icon = this.querySelector('.toggle-icon');
+                    
+                    // Check if the .project-details element has the 'hidden' class
+                    if (details.classList.contains('hidden')) {
+                        // If hidden, remove 'hidden' to show it
+                        details.classList.remove('hidden');
+                        // Change the icon to '[-]'
+                        icon.textContent = '[-]';
+                    } else {
+                        // If visible, add 'hidden' to hide it
+                        details.classList.add('hidden');
+                        // Change the icon to '[+]'
+                        icon.textContent = '[+]';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
