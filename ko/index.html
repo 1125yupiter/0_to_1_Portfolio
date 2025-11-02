@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>유세현 (Sehyun YU): The 0-to-1 Product & Solutions Architect</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         /* Inter 폰트 적용 (Tailwind 기본 폰트) */
@@ -66,15 +67,27 @@
 
     <div class="container mx-auto max-w-4xl p-6 md:p-12">
 
+        <!-- ★★★ Language Switcher (New Position) ★★★ -->
+        <nav class="flex justify-end mb-4 text-sm font-medium">
+            <a href="../" class="text-gray-500 hover:text-indigo-800">English</a>
+            <span class="text-gray-400 mx-2">|</span>
+            <span class="text-indigo-700 font-bold underline">한국어</span>
+        </nav>
+
+        <!-- 1. 헤더: 정체성 선언 -->
         <header class="mb-12 text-center">
             <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">유세현 (Sehyun YU)</h1>
             <p class="text-2xl text-indigo-700 font-semibold">
                 The 0-to-1 Product & Solutions Architect
             </p>
+            <!-- (v1.7) 헤더 문구 -->
             <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-                "고객의 문제로부터 '최적의 솔루션'을 '0'에서 '1'로 설계합니다."
+                "고객의 문제를 분석하여, '최적의 제품과 솔루션'을 '0'에서 '1'로 설계하고 구현합니다."
             </p>
-            <div class="mt-6 flex justify-center gap-4">
+
+            <!-- ★★★ Language Switcher (Old Position - Removed) ★★★ -->
+
+            <div class="mt-4 flex justify-center gap-4">
                 <a href="mailto:1125.sehyun@gmail.com" class="text-indigo-600 hover:text-indigo-800">1125.sehyun@gmail.com</a>
                 <span class="text-gray-300">|</span>
                 <a href="https://www.linkedin.com/in/1125sehyun/" target="_blank" class="text-indigo-600 hover:text-indigo-800">LinkedIn</a>
@@ -83,9 +96,12 @@
             </div>
         </header>
 
+        <!-- 2. 핵심 0-to-1 프로젝트 (v1.6 디자인 적용) -->
         <main>
 
+            <!-- 프로젝트 1: ALEX 텀블러 (창업) -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">아이디어를 3.7억 매출의 B2C 제품으로 (0→1)</h2>
@@ -93,7 +109,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">B2C Product</span>
                         <span class="tag">Crowdfunding</span>
@@ -116,7 +134,9 @@
                 </div>
             </section>
 
+            <!-- (v1.5) 프로젝트 2: MIJ -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">이명(Tinnitus) 환자를 위한 신규 웹 솔루션 (0→1)</h2>
@@ -124,7 +144,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">Digital Product</span>
                         <span class="tag">Product Owner</span>
@@ -145,7 +167,9 @@
                 </div>
             </section>
 
+            <!-- 프로젝트 3: 현대모비스 EIS -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">엑셀 보고서를 대체하는 '경영진 정보 시스템' (0→1)</h2>
@@ -153,8 +177,10 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
-                    <div class="my-6">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
+                     <div class="my-6">
                         <span class="tag">Enterprise System</span>
                         <span class="tag">Product Manager</span>
                         <span class="tag">Data Visualization</span>
@@ -175,7 +201,9 @@
                 </div>
             </section>
 
+            <!-- (v1.5) 프로젝트 4: 브라질 -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">브라질 법인 시스템 업그레이드 및 통합 (0→1)</h2>
@@ -183,7 +211,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">System Integration</span>
                         <span class="tag">Global PM</span>
@@ -204,7 +234,9 @@
                 </div>
             </section>
 
+            <!-- 프로젝트 5: 마이애미 -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">마이애미 레거시 시스템 재구축 (0→1)</h2>
@@ -212,7 +244,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">Solutions Architect</span>
                         <span class="tag">System Migration</span>
@@ -233,7 +267,9 @@
                 </div>
             </section>
 
+            <!-- (v1.5) 프로젝트 6: 팀도밍고 -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">정부 입찰(RFP)을 '성공적인 수주'로 (0→1)</h2>
@@ -241,7 +277,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">B2G Solution</span>
                         <span class="tag">Proposal Architect</span>
@@ -263,7 +301,9 @@
                 </div>
             </section>
 
+            <!-- 프로젝트 7: 신도 P&G -->
             <section class="project-card">
+                <!-- 클릭 영역 -->
                 <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">수기 수출 프로세스를 '자동화 시스템'으로 (0→1)</h2>
@@ -271,7 +311,9 @@
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
+                    <!-- (v1.6) 태그 여백 "my-6" 적용 -->
                     <div class="my-6">
                         <span class="tag">Process Automation</span>
                         <span class="tag">System Architecture</span>
@@ -293,14 +335,17 @@
                 </div>
             </section>
             
+            <!-- 프로젝트 8: 기타 포트폴리오 링크 -->
             <section class="project-card">
-                 <div class="project-toggle flex justify-between items-center">
+                 <!-- 클릭 영역 -->
+                <div class="project-toggle flex justify-between items-center">
                     <div>
                         <h2 class="text-2xl md:text-3xl font-bold mb-1">기타 포트폴리오 및 링크 (External Links)</h2>
                         <p class="text-lg text-gray-500">인터뷰, 창업 프로젝트 상세, 의료기기 프로젝트 링크</p>
                     </div>
                     <span class="text-3xl text-indigo-500 toggle-icon">[+]</span>
                 </div>
+                <!-- 상세 내용 (숨겨짐) -->
                 <div class="project-details hidden">
                     
                     <h3 class="section-title">About Me</h3>
@@ -332,6 +377,7 @@
         </main>
     </div>
 
+    <!-- JavaScript for Toggle -->
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // 모든 .project-toggle 요소를 선택합니다.
@@ -364,3 +410,4 @@
 
 </body>
 </html>
+
